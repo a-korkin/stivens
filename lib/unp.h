@@ -188,5 +188,7 @@ struct if_nameindex {
 // };
 #endif //HAVE_TIMESPEC_STRUCT
 
+int Socket(int family, int type, int protocol);
+
 #endif //__unp_h
 
